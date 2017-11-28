@@ -11,13 +11,15 @@ header {
   border-bottom: 1px solid black;
   background-color: white;
 
+
 }
+
+
 .logo{
   display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-  border: 1px solid black;
   margin-right: 10px;
 
 }
@@ -33,15 +35,21 @@ header {
 
 header nav {
   padding-right: 40px;
+
 }
 
+nav span{
+  display: inline-flex;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
 
 .content {
   display: flex;
   position: relative;
   top: 80px;
   width: 1232px;
-  margin: 0 auto 78px auto;
+  margin: 0 auto 116px auto;
   padding-top: 50px;
 
 }
@@ -63,6 +71,7 @@ header nav {
 .Column.Small{
   width: 240px;
   margin-left: 32px;
+  flex-direction: column;
 }
 
 .stories{
@@ -102,13 +111,15 @@ header nav {
 
 
 .img-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
   font-family: georgia;
-
 }
 
 .story, .narrative{
@@ -119,4 +130,56 @@ header nav {
 
 .text-content{
   height: 250px;
+}
+
+.news-bites{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.news-bites .bites{
+  background-color: WhiteSmoke;
+  font-weight: normal;
+  text-align: left;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  flex-direction: column;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+
+}
+
+footer{
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana
+  font-size: 12px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+  text-decoration: none;
+}
+
+footer span {
+  margin-right: 12px;
+  text-decoration: underline;
+  padding: 0 10px;
+}
+
+.img-content span{
+
 }
